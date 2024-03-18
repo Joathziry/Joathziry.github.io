@@ -1,0 +1,50 @@
+img{max-height: 500px;}
+.carousel-inner{margin: 50px, 50px, 50px, 50px;padding: 50px;}
+div{background-color: rgb(234, 178, 233);}
+img {
+    width: 150px;
+}
+h1{
+    font-size: 30px;
+    color: rgb(18, 52, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+p{
+    font-size: 16px;
+    color: rgb(37, 36, 36);
+}
+a{
+    text-decoration: none;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    font-family:"Karla", sans-serif;
+}
+.presentacion h1{
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(166, 215, 238);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.caja img {
+    border-radius: 50%;
+}
